@@ -1,0 +1,47 @@
+body,p{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+.tm-title{
+	height: 30px;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #e5e5e5;
+	position: relative;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.tm-kuang{
+	width: 70%;
+	margin: 0 auto 0;
+}
+.title-left span, .title-left a, .title-right span ,.title-right a{
+	color: #bcbcbc;
+	line-height: 30px;
+	text-decoration: none;
+	margin:0 7px;
+} 
+.title-left a:hover, .title-right a:hover{
+	color: #ff0036;
+}
+#d-mytaobao, #d-mark, #d-shop{
+	display: inline-block;
+}
+.d-yingchang{
+	position: absolute;
+}
+.yingchang{
+	display: none;
+}
+.xianshi{
+	display: block;
+	background-color: #fff;
+	border-left: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	margin-left: -1px;/*由于加了1px边框，下拉框空白的部分向右偏了1px，用这个让它偏回去*/
+}
