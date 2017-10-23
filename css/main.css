@@ -1,14 +1,20 @@
 /*主页面的css*/
 /*==========================================================================*/
-.title a, .title span, .title strong{
-	line-height: 50px;
-	color: #fff;
-	margin:0 10px 0 10px;
+.navbar-default {
+    background-color: #1f497d;
+    border-color: #1f497d;
 }
-.title strong{
-	font-size: 30px;
-	line-height: 30px;
+.navbar-default .navbar-brand {
+    color: #fff;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #1f497d;
+    background-color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
 .d-items{
 	margin-top:30px;
 	height: 600px;
@@ -27,8 +33,4 @@
 	height: 600px;
 	background-color: #F2F2F2;
 	border-radius: 10px;
-}
-#myCarousel{
-	width: 500px;
-	margin:10px auto 0;
 }
